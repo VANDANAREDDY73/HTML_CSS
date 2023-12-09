@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Form</title>
+  
+  <style>
+    body
+    {
+      background: url("https://tse2.mm.bing.net/th?id=OIP.AP1_Tqb4M5Ss0ZRwSo0AEgHaEK&pid=Api&P=0&h=180") no-repeat;
+      background-size: cover;
+      background-position: 0px 0px;
+    }
+    *
+    {
+      margin: 0px;
+    }
+    header
+    {
+      background-color:black;
+      color: white;
+      padding:10px;
+
+    }
+    div
+    {
+      color:white;
+
+    }
+    #reg-form
+    {
+      background: linear-gradient(45deg,darkslategrey,black);
+      width: 300px;
+      margin:50px auto;
+      text-align: center;
+      border-radius: 5px;
+      padding:20px;
+    }
+    .form-group>input[type="text"],.form-group>input[type="password"]
+    {
+      background:none;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid white;
+      margin-bottom: 20px;
+      color:white;
+    }
+    input[type="submit"]
+    {
+      background-color: grey;
+      border:none;
+      color:white;
+      padding:5px 10px;
+      width:150px;
+      
+
+    }
+    ::placeholder
+    {
+      color: white;
+    }
+    .fa-circle-user
+    {
+      color:grey;
+      font-size: 50px;
+      padding-bottom: 60px;
+      margin: -40px;
+      border: 30px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>HTML Vertical Forms</header>
+  <div>
+    
+    <form id="reg-form">
+     
+      <i class="fa-solid fa-circle-user"></i>
+      <div class="form-group">
+      <input type="text" placeholder="Enter username">
+      <input type="text" placeholder="Enter Email">
+      <input type="password" placeholder="Enter password">
+  
+      <input type="password" placeholder="Enter confirm password">
+    </div>
+    <div>
+      <input type="submit" value="Register Here">
+    </div>
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/c1b2119026.js" crossorigin="anonymous"></script> 
+</body>
+</html>

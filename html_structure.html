@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML LAYOUTS</title>
+  <style>
+    *
+    {
+      margin: 0px;
+    }
+    header,footer
+    {
+      background-color: black;
+      padding: 10px;
+    }
+    header>h1
+    {
+      color: white;
+    }
+    .active
+    {
+      background-color: black;
+      border-radius: 5px;
+    }
+    nav
+    {
+      background-color: grey;
+      padding: 5px;
+      text-align: center;
+      
+    }
+    nav>a
+    {
+      color: white;
+      margin: 20px;
+      padding: 5px 10px;
+      text-decoration: none;
+
+    }
+    nav>a:hover
+    {
+      text-decoration: underline;
+
+    }
+    aside
+    {
+      background-color: black;
+      height: 410px;
+      width: 140px;
+      text-align: center;
+      float: left;
+      
+    }
+    aside>a
+    {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 35px;
+    }
+    aside>a:hover
+    {
+      color: blue;
+      text-decoration: underline;
+    }
+    section
+    {
+      padding: 5px;
+      background-color:rgb(241,234,233);
+      margin-left: 140px;
+    }
+    section>article
+    {
+      background-color: black;
+      color: white;
+      padding: 20px;
+    }
+    
+    section>article>button
+    {
+      
+      background-color: orangered;
+      border: none;
+      outline: none;
+    }
+    footer
+    {
+      margin-left:140px;
+      color: white;
+      text-align: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <header><h1><span style="color:orane;">J</span>spiders Institute</h1></header>
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+  </nav>
+  <aside>
+    <a href="#">Java</a>
+    <a href="#">python</a>
+    <a href="#">html</a>
+    <a href="#">css</a>
+    <a href="#">jdbc</a>
+    <a href="#">Jsp</a>
+    <a href="#">django</a>
+  </aside>
+  <section>
+    <h2>Courses:-</h2>
+    
+    <article>
+      <h3>Java Course:-</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur corrupti eius eaque. Sint molestias asperiores tempore nam, ab non, magnam aliquam atque saepe harum corrupti amet voluptatibus illum inventore.</p>
+      <button>join now</button>
+    </article>
+    <article>
+      <h3>Java Course:-</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur corrupti eius eaque. Sint molestias asperiores tempore nam, ab non, magnam aliquam atque saepe harum corrupti amet voluptatibus illum inventore.</p>
+      <button>join now</button>
+    </article>
+    
+    <article>
+      <h3>Java Course:-</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur corrupti eius eaque. Sint molestias asperiores tempore nam, ab non, magnam aliquam atque saepe harum corrupti amet voluptatibus illum inventore.</p>
+      <button>join now</button>
+    </article>
+    
+
+  </section>
+  <footer>
+    <h1>CopyRights:&copy;2023</h1>
+    <small>Developed & Maintained By <a href="#">Jspyders</a></small>
+  </footer>
+<div style="margin-bottom:0px;">
+
+</div>  
+</body>
+</html>

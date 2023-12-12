@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Flex Box</title>
+  <style>
+    .flex-container
+    {
+      border: 6px solid black;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .flex-item
+    {
+      color: white;
+      padding: 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .item-1
+    {
+      background-color: red;
+    }
+    .item-2
+    {
+      background-color: cyan;
+
+    }
+    .item-3
+    {
+      background-color: orange;
+    }
+    .item-4
+    {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item item-1">Item-1</div>
+    <div class="flex-item item-2">Item-2</div>
+    <div class="flex-item item-3">Item-3</div>
+    <div class="flex-item item-4">Item-4</div>
+  </div>
+</body>
+</html>
